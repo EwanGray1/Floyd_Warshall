@@ -60,22 +60,10 @@ python -m unittest unit_test
 ## Performance Testing
 Performance tests for the algorithm are included in the performance_test.py file. Run the performance tests to evaluate the algorithm's efficiency.
 
-## Version Control
-This project uses Git for version control. You can initialize a Git repository for your own use and track changes to the codebase. Here's how to set it up:
+## Code Quality Checks
 
-1.Initialize a new Git repository:
+To ensure that the code adheres to Python's PEP 8 style guide, run `flake8`:
+
 ```bash
-git init
-```
-2.Add the project files to Git:
-```bash
-git add .
-```
-3.Commit the initial changes:
-```bash
-git commit -m "Initial commit: Added Floyd-Warshall algorithm using recursion implementation"
-```
-4.Push the changes:
-```bash
-git push origin <branch>
+flake8
 ```
