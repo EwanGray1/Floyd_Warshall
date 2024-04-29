@@ -51,14 +51,32 @@ for row in shortest_distances:
 
 ## Testing
 
-Unit tests for the Floyd-Warshall algorithm are included in the `test_floyd_warshall.py` file. You can run the tests using the following command:
+Unit tests cover various scenarios to ensure the Floyd-Warshall algorithm's correctness:
+- Small graphs with direct paths and paths requiring intermediate vertices.
+- Fully connected graphs with varied edge weights to test the algorithm's consistency across all node pairs.
+- Large graphs to assess the algorithm's scalability and performance.
+
+To run the tests, execute the following command:
 
 ```bash
 python -m unittest unit_test
 ```
 
-## Performance Testing
-Performance tests for the algorithm are included in the performance_test.py file. Run the performance tests to evaluate the algorithm's efficiency.
+## Performance Insights
+
+The performance tests compare the recursive and traditional implementations across different graph sizes:
+
+Small Graphs: Performance metrics show how each implementation handles dense connectivity.
+
+Large Graphs: Tests assess scalability and execution time as graph size approaches real-world complexity levels.
+
+Performance results indicate that the recursive method may perform slower on very large graphs but offers competitive performance for small to medium-sized graphs.
+
+Run the performance tests with:
+
+```bash
+python performance_test.py
+```
 
 ## Code Quality Checks
 
