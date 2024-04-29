@@ -14,7 +14,7 @@ This repository contains two Python implementations of the Floyd-Warshall algori
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<username>/floyd-warshall-algorithm.git
+   git clone https://github.com/EwanGray1/Floyd_Warshall.git
    ```
 
 2. Navigate to the project directory:
