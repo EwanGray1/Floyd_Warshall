@@ -61,7 +61,7 @@ class TestFloydWarshall(unittest.TestCase):
             for j in range(50):
                 if i != j:
                     graph[i][j] = i + j
-        
+
         result_recursive = floyd_warshall_recursive(graph)
         result_gfg = floyd_warshall_gfg(graph)
         self.assertEqual(result_recursive, result_gfg)
