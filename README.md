@@ -12,38 +12,6 @@ This repository contains two Python implementations of the Floyd-Warshall algori
 
 ## Installation
 
-Clone the repository to your local machine by running:
-
-```bash
-git clone https://github.com/EwanGray1/Floyd_Warshall.git
-```
-
-```bash
-cd Floyd_Warshall
-```
-```bash
-pip install -r requirements.txt
-```
-
-
-Certainly! Here's a revised version of the README.md file that incorporates the suggestions for clarity, detailed documentation, and improved user guidance:
-
-markdown
-Copy code
-# Floyd-Warshall Algorithm Implementations
-
-This repository contains two Python implementations of the Floyd-Warshall algorithm, which is used to find the shortest paths between all pairs of nodes in a given weighted graph. The implementations include a traditional approach and a variant using recursive techniques.
-
-## Repository Contents
-
-- `FloydAlgo_Recursion.py`: An implementation of the Floyd-Warshall algorithm emphasizing a recursive approach.
-- `FloydAlgo_gfg.py`: A traditional implementation of the algorithm adapted from GeeksforGeeks.
-- `requirements.txt`: Lists dependencies required to run the code in this repository.
-- `unit_test.py`: Contains unit tests for verifying the correctness of both implementations.
-- `performance_test.py`: Scripts to measure the performance of the algorithms with different graph sizes.
-
-## Installation
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/<username>/floyd-warshall-algorithm.git
@@ -92,3 +60,22 @@ python -m unittest unit_test
 ## Performance Testing
 Performance tests for the algorithm are included in the performance_test.py file. Run the performance tests to evaluate the algorithm's efficiency.
 
+## Version Control
+This project uses Git for version control. You can initialize a Git repository for your own use and track changes to the codebase. Here's how to set it up:
+
+1.Initialize a new Git repository:
+```bash
+git init
+```
+2.Add the project files to Git:
+```bash
+git add .
+```
+3.Commit the initial changes:
+```bash
+git commit -m "Initial commit: Added Floyd-Warshall algorithm using recursion implementation"
+```
+4.Push the changes:
+```bash
+git push origin <branch>
+```
