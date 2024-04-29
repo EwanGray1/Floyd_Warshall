@@ -4,6 +4,7 @@ This repository makes changes to the Floyd-Warshall algorithm, which is used to 
 
 ## Repository Contents
 
+- `.flake8`: Code quality check - ensuring PEP-8 standards are adhered to.
 - `FloydAlgo_Recursion.py`: The recursive adaptation of the traditional algorithm.
 - `FloydAlgo_gfg.py`: The original algorithm from https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/.
 - `requirements.txt`: Required packages for the repository to run.
