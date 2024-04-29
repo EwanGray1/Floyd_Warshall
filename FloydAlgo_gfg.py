@@ -11,7 +11,7 @@ def floydWarshall(graph):
     """dist[][] will be the output matrix that will finally have the shortest distances
     between every pair of vertices"""
     # initializing the solution matrix same as input graph matrix
-    # OR we can say that the initial values of shortest distances are 
+    # OR we can say that the initial values of shortest distances are
     # based on shortest paths considering no intermediate vertices
     dist = list(map(lambda i: list(map(lambda j: j, i)), graph))
 
