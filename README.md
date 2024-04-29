@@ -6,12 +6,12 @@ This is an adaptation of the Floyd-Warshall algorithm, using recursive methods t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com//Floyd_Warshall.git
+   git clone https://github.com/EwanGray1/Floyd_Warshall.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd floyd-warshall-algorithm
+   cd Floyd_Warshall
    ```
    
 3. Install the required dependencies:
@@ -51,23 +51,3 @@ python -m unittest unit_test
 
 ## Performance Testing
 Performance tests for the algorithm are included in the performance_test.py file. Run the performance tests to evaluate the algorithm's efficiency.
-
-## Version Control
-This project uses Git for version control. You can initialize a Git repository for your own use and track changes to the codebase. Here's how to set it up:
-
-1.Initialize a new Git repository:
-```bash
-git init
-```
-2.Add the project files to Git:
-```bash
-git add .
-```
-3.Commit the initial changes:
-```bash
-git commit -m "Initial commit: Added Floyd-Warshall algorithm using recursion implementation"
-```
-4.Push the changes:
-```bash
-git push origin <branch>
-```
