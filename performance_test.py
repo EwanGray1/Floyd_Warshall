@@ -2,7 +2,7 @@ import timeit
 from FloydAlgo_refactored import FloydWarshallRecursive, FloydWarshallGfG
 
 
-def test_performance(algorithm, graph, number_of executions=10):
+def test_performance(algorithm, graph, number_of_executions=10):
     """
     Helper function to measure the execution time of a given Floyd-Warshall implementation.
     """
