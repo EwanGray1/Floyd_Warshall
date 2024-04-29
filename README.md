@@ -5,8 +5,8 @@ This repository makes changes to the Floyd-Warshall algorithm, which is used to 
 ## Repository Contents
 
 - `FloydAlgo_Recursion.py`: The recursive adaptation of the traditional algorithm.
-- `FloydAlgo_gfg.py`: The traditional algorithm from https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/.
-- `requirements.txt`: Package dependencies for the repository to run.
+- `FloydAlgo_gfg.py`: The original algorithm from https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/.
+- `requirements.txt`: Required packages for the repository to run.
 - `unit_test.py`: Tests to ensure that the recursive algorithm is correctly implemented.
 - `performance_test.py`: Scripts to compare efficiency of the two algorithms on different graph sizes.
 
