@@ -8,7 +8,7 @@ def test_performance(algorithm, graph, number_of_executions=10):
     """
     algo_instance = algorithm(graph)
     return timeit.timeit(lambda: algo_instance.compute(), number=number_of_executions)
-
+    
 
 def main():
     # Graph definitions
@@ -19,7 +19,6 @@ def main():
         [float('inf'), float('inf'), float('inf'), 0]
     ]
 
-    
     large_graph = [[float('inf')] * 100 for _ in range(100)]
     for i in range(100):
         for j in range(100):
