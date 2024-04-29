@@ -1,14 +1,14 @@
-# Floyd-Warshall Algorithm Implementations
+# FLoyd-Warshall Adaptation With Recursion
 
-This repository contains two Python implementations of the Floyd-Warshall algorithm, which is used to find the shortest paths between all pairs of nodes in a given weighted graph. The implementations include a traditional approach and a variant using recursive techniques.
+This repository makes changes to the Floyd-Warshall algorithm, which is used to find the shortest path between two nodes in a graph. The changes utilise recursive methods. We compare the traditional approach to the recursive method.
 
 ## Repository Contents
 
-- `FloydAlgo_Recursion.py`: An implementation of the Floyd-Warshall algorithm emphasizing a recursive approach.
-- `FloydAlgo_gfg.py`: A traditional implementation of the algorithm adapted from GeeksforGeeks.
-- `requirements.txt`: Lists dependencies required to run the code in this repository.
-- `unit_test.py`: Contains unit tests for verifying the correctness of both implementations.
-- `performance_test.py`: Scripts to measure the performance of the algorithms with different graph sizes.
+- `FloydAlgo_Recursion.py`: The recursive adaptation of the traditional algorithm.
+- `FloydAlgo_gfg.py`: The traditional algorithm from https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/.
+- `requirements.txt`: Package dependencies for the repository to run.
+- `unit_test.py`: Tests to ensure that the recursive algorithm is correctly implemented.
+- `performance_test.py`: Scripts to compare efficiency of the two algorithms on different graph sizes.
 
 ## Installation
 
