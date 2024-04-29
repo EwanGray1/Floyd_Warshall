@@ -10,10 +10,10 @@ INF = 99999
 def floydWarshall(graph):
     """dist[][] will be the output matrix that will finally have the shortest distances
     between every pair of vertices"""
-    # initializing the solution matrix same as input graph matrix
-    # OR we can say that the initial values of shortest distances are
-    # based on shortest paths considering no intermediate vertices
-    dist = list(map(lambda i: list(map(lambda j: j, i)), graph))
+    """initializing the solution matrix same as input graph matrix
+    OR we can say that the initial values of shortest distances are
+    based on shortest paths considering no intermediate vertices
+    dist = list(map(lambda i: list(map(lambda j: j, i)), graph))"""
 
     # Add all vertices one by one to the set of intermediate vertices.
     for k in range(V):
