@@ -1,7 +1,9 @@
 
 def floyd_warshall(graph):
     """
-    Applies Floyd-Warshall algorithm to find the shortest paths in a graph.
+    Recursive adaptation of the Floyd-Warshall algorithm.
+
+    Finds the shortest path between nodes in a graph.
 
     Args:
     - graph: Adjacency matrix representation of the graph
@@ -10,12 +12,12 @@ def floyd_warshall(graph):
     - dist: Matrix of shortest distances between every pair of vertices
     """
 
-    # Number of vertices in the graph
+    # Number of nodes in the graph
     V = len(graph)
-    # Initialize the distance matrix with the input graph
+    # Initialise the distance matrix with the input graph
     dist = [[float('inf')] * V for _ in range(V)]
 
-    # Initialize diagonal elements as 0 since distance from a vertex to itself is 0
+    # Sets Diagonal distances to 0, distance from node to itself is 0
     for i in range(V):
         dist[i][i] = 0
 
