@@ -2,13 +2,13 @@ import timeit
 from FloydAlgo_refactored import FloydWarshallRecursive, FloydWarshallGfG
 
 
-def test_performance(algorithm, graph, number_of_executions=10):
+def test_performance(algorithm, graph, number_of executions=10):
     """
     Helper function to measure the execution time of a given Floyd-Warshall implementation.
     """
     algo_instance = algorithm(graph)
     return timeit.timeit(lambda: algo_instance.compute(), number=number_of_executions)
-    
+
 
 def main():
     # Graph definitions
@@ -25,7 +25,6 @@ def main():
             if i != j:
                 large_graph[i][j] = i + j
 
-    
     # Number of executions
     num_executions_small = 1000
     num_executions_large = 10
@@ -43,6 +42,7 @@ def main():
     print(f"Execution time for small graph (Traditional): {time_small_gfg} seconds")
     print(f"Execution time for large graph (Recursive): {time_large_recursive} seconds")
     print(f"Execution time for large graph (Traditional): {time_large_gfg} seconds")
+
 
 if __name__ == "__main__":
     main()
