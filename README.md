@@ -1,17 +1,57 @@
-# Floyd-Warshall Algorithm with Recursive Methods
+# Floyd-Warshall Algorithm Implementations
 
-This is an adaptation of the Floyd-Warshall algorithm, using recursive methods to find the shortest path between two nodes in a graph.
+This repository contains two Python implementations of the Floyd-Warshall algorithm, which is used to find the shortest paths between all pairs of nodes in a given weighted graph. The implementations include a traditional approach and a variant using recursive techniques.
+
+## Repository Contents
+
+- `FloydAlgo_Recursion.py`: An implementation of the Floyd-Warshall algorithm emphasizing a recursive approach.
+- `FloydAlgo_gfg.py`: A traditional implementation of the algorithm adapted from GeeksforGeeks.
+- `requirements.txt`: Lists dependencies required to run the code in this repository.
+- `unit_test.py`: Contains unit tests for verifying the correctness of both implementations.
+- `performance_test.py`: Scripts to measure the performance of the algorithms with different graph sizes.
+
+## Installation
+
+Clone the repository to your local machine by running:
+
+```bash
+git clone https://github.com/EwanGray1/Floyd_Warshall.git
+```
+
+```bash
+cd Floyd_Warshall
+```
+```bash
+pip install -r requirements.txt
+```
+
+
+Certainly! Here's a revised version of the README.md file that incorporates the suggestions for clarity, detailed documentation, and improved user guidance:
+
+markdown
+Copy code
+# Floyd-Warshall Algorithm Implementations
+
+This repository contains two Python implementations of the Floyd-Warshall algorithm, which is used to find the shortest paths between all pairs of nodes in a given weighted graph. The implementations include a traditional approach and a variant using recursive techniques.
+
+## Repository Contents
+
+- `FloydAlgo_Recursion.py`: An implementation of the Floyd-Warshall algorithm emphasizing a recursive approach.
+- `FloydAlgo_gfg.py`: A traditional implementation of the algorithm adapted from GeeksforGeeks.
+- `requirements.txt`: Lists dependencies required to run the code in this repository.
+- `unit_test.py`: Contains unit tests for verifying the correctness of both implementations.
+- `performance_test.py`: Scripts to measure the performance of the algorithms with different graph sizes.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/EwanGray1/Floyd_Warshall.git
+   git clone https://github.com/<username>/floyd-warshall-algorithm.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd Floyd_Warshall
+   cd floyd-warshall-algorithm
    ```
    
 3. Install the required dependencies:
@@ -51,3 +91,4 @@ python -m unittest unit_test
 
 ## Performance Testing
 Performance tests for the algorithm are included in the performance_test.py file. Run the performance tests to evaluate the algorithm's efficiency.
+
